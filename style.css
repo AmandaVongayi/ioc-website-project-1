@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* to be removed later */
+body{
+    border: 2px solid rgb(200, 200, 200);
+}
+
+section{
+    border: 2px solid rgb(200, 200, 200);
+    padding: 5%;
+}
+
+div{
+    border: 2px solid rgb(200, 200, 200);
+    padding: 5%;
+}
+
+nav{
+    border: 2px solid rgb(200, 200, 200);
+    padding: 5%;
+}
+i{
+    border: 2px solid rgb(200, 200, 200);
+    padding: 5%;
+}
