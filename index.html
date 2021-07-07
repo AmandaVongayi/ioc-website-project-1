@@ -4,14 +4,14 @@
     <title> Company Name: Home </title>
     <!-- Add all external links below this -->
     <!-- Font awesome link -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
+    <script src="https://kit.fontawesome.com/4153bd5ae4.js" crossorigin="anonymous"></script>
+ 
     <!-- Google Font link -->
-    <!-- Fonts: Montserrat 100, 200, 300, 400, 500, 600, 700, 900 -- To be used for headings and paragraphs and links -->
+    <!-- Fonts: Montserrat+Alternates 100, 200, 300 -- To be used for paragraphs and links -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300&display=swap" rel="stylesheet">
+
 
     <!-- Fonts: Comfortaa: 300, 400, 500, 600, 700 -- To be used for headings -->
 
@@ -19,11 +19,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Fonts: 'Fascinate Inline' -- To be used for featured text -->
+    <!-- Fonts: 'Aladin' -- To be used for links -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fascinate+Inline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Comfortaa&display=swap" rel="stylesheet">
 
     <!-- Gridlex link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.7.1/gridlex.min.css">
@@ -35,34 +35,36 @@
 <body>
 
     <!-- -------------- Header Section -------------- -->
-    <header>
-        <h1> Logo</h1>
-        <nav>
-            <a href = "#home">Home</a>
-            <a href = "about.html">About</a>
-            <a href = "services.html">Services</a>
-            <a href = "contact.html">Contact Us</a>
+    <header class = "bg-light grid-center">
+
+        <h1 class = "col-4-middle padded-1"> Logo</h1>
+        <nav class = "col-8-middle right">
+            <a href = "#home" class = "padded-1">Home</a>
+            <a href = "about.html" class = "padded-1">About</a>
+            <a href = "services.html" class = "padded-1">Services</a>
+            <a href = "contact.html" class = "padded-1">Contact</a>
         </nav>
 
-        <div> 
-            <h3> Lorem ipsum dolor sit amet consectetur, adipisicing elit. </h3>
-            <a href = "#">Tell me more</a>
+        <div class = "col-6 center padded-1"> 
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus enim blanditiis voluptas incidunt commodi reiciendis placeat atque ab provident animi? Quis nobis accusamus sequi beatae. Quod praesentium accusantium autem molestiae? </p>
+            <a href = "#" class = "padded-1">Tell me more</a>
         </div>
 
     </header>
 
 
         <!-- -------------- Featured Services section -------------- -->
-    <section id = "home">
-        <div>
+    <section id = "home" class = "bg-dark grid-center">
+        <div class = "col-6 bg-image">
             <!-- image -->
 
         </div>
 
-        <div>
+        <div class = "col-6">
             <h3> The next program start date is
                 <br> <span> 10 August 2021</span>
             </h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ab minima dolor nam explicabo soluta facilis magnam possimus nulla ipsam. Pariatur quis adipisci, suscipit rem quam quasi illum animi inventore!</p>
             <a href = "#"> Take me to the application</a>
         </div>
 
@@ -70,14 +72,17 @@
        
     <!-- -------------- Youtube Channel section -------------- -->
 
-    <section>
-        <div>
-            <h3> My YouTube Channel</h3>
-            <p> more than 300 videos on my services </p>
-            <a href = "#"> Subscribe</a>
+    <section class = "bg-dark grid-center">
+        <div class = "col-6 padded-1 ">
+            <div class = "vert-center">
+                <h3> My YouTube Channel</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe vero labore provident, repellendus perspiciatis iusto eveniet, sint hic dicta earum corrupti quam quidem rerum exercitationem adipisci atque? Vitae, laboriosam repellat.</p>
+                <p> more than 300 videos on my services </p>
+                <a href = "#"> Subscribe</a>
+            </div>
         </div>
 
-        <div> 
+        <div class = "col-6 bg-image padded-1"> 
             <!-- image -->
 
         </div>
@@ -86,7 +91,7 @@
 
      <!-- -------------- Contact us section -------------- -->
 
-    <footer>
+    <footer class = "bg-light">
 
         <div>
             <h3> Let's Connect</h3>
@@ -100,18 +105,13 @@
                 <p> <strong> Email: </strong> <a href = "#"> ### ### ###</a> </p>
             </div>
             <nav>
-                <a href = "#"> <i class="fas fa-instagram" aria-hidden="true"></i> </a>
-                <a href = "#"><i class="fas fa-linkedin" aria-hidden="true"></i></a>
-                <a href = "#"> <i class="fas fa-pinterest" aria-hidden="true"></i></a>
+                <a href = "#"> <i class="fab fa-facebook"></i></i> </a>
+                <a href = "#"><i class="fab fa-linkedin" ></i></a>
+                <a href = "#"> <i class="fab fa-pinterest"></i></a>
             </nav>
 
         </div>
 
     </footer>
-
-
-
-
-    
 </body>
 </html>

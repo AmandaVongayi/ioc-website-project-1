@@ -15,15 +15,113 @@ section{
 }
 
 div{
-    border: 2px solid rgb(200, 200, 200);
+    border: 2px solid rgb(75, 73, 73);
     padding: 5%;
 }
 
 nav{
-    border: 2px solid rgb(200, 200, 200);
+    border: 2px solid rgb(46, 45, 45);
+    padding: 5%;
+}
+
+h1{
+    border: 2px solid rgb(46, 45, 45);
     padding: 5%;
 }
 i{
-    border: 2px solid rgb(200, 200, 200);
+    border: 2px solid rgb(94, 91, 91);
     padding: 5%;
 }
+
+/*---------------------- Utility Classes ---------------------- */
+
+.bg-light{ 
+    background-color: #debeba;
+    color: #171d1c;
+}
+
+.bg-dark{
+    background-color: #171d1c;
+    color: #f4faff;
+}
+
+.bg-image{
+    background-image: url(/images/ioc-project-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+}
+
+.left{ text-align: left;}
+.center{ text-align: center;}
+.right{ text-align: right;}
+
+.vert-center{ vertical-align: middle;}
+
+
+.padded-1{ padding: 1rem;}
+
+.padding-bot-0{ padding-bottom: 0;}
+.padding-top-0{ padding-top: 0;}
+.padding-right-0{ padding-right: 0;}
+.padding-left-0{ padding-left: 0;}
+
+.padding-bot-0.5 { padding-bottom: 0.5%;}
+.padding-top-0.5 { padding-top: 0.5%;}
+.padding-right-0.5 { padding-right: 0.5%;}
+.padding-left-0.5 { padding-left: 0.5%;}
+/*---------------------- Universal Styles ---------------------- */
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Comfortaa', cursive;
+}
+
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+a{
+    display: inline-block;
+}
+
+/*---------------------- Header Section ---------------------- */
+
+h1{
+    font-size: 4rem;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #171d1c;
+    /* background-color: orange; */
+    font-family: 'Comfortaa', cursive;
+    text-transform: lowercase;
+    margin-right: 0.2rem;
+    margin-left: 0.2rem;
+    font-weight; 300;
+    /* margin: 0.1rem; */
+}
+
+header div a{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 300;
+    color: #debeba;
+    background-color:#171d1c;
+    border-radius: 25px;
+    margin-top: 0.5rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 1rem;
+    
+}
+
+
+/*---------------------- Contact Us ---------------------- */
+
+/* <<<<<<<<<<<<< --------------------------------- Home Page --------------------------------- >>>>>>>>>>>>>>>> */
+
+/*---------------------- Featured Services ---------------------- */
+
+
+/*---------------------- Youtube Channel ---------------------- */
